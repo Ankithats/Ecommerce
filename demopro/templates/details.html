@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <div class="container-fluid  dti">
+    <div class="container dtz d-flex">
+        <div class="my-5 ms-3">
+            <img class="img2" src="{{data.thumbnail}}" alt="">
+            <div class="mx-1 my-5 ">
+                <a style="margin-top: 5%;" href="#" class="btn  me-3 up"><img src="{% static 'images/cart.png' %}" >Add To Cart</a> 
+                <a style="margin-top: 5%;" href="#" class="btn   dl"><img src="{% static 'images/icons8-thunder-30 (1).png' %}">Buy Now</a> 
+               
+           </div>
+            
+        </div>
+        <div class="  mx-3 px-3 dte py-5 text-light">
+            <h2 style="color: black;" class="font-weight-bold">{{data.title}}</h2>
+            <h3 style="padding-top: 5%;color:black; padding-left:2%;"><img src="{% static 'images/icons8-dollar-24.png' %}">{{data.price}}</h3>
+             <h3 style="padding-top: 5%; color:black;  padding-left:2%;">{{data.discountPercentage}}<span style="color: brown;">% Off</span></h3> 
+            <h3 style="padding-top: 5%;color:black"><img src="{% static 'images/icons8-rating-48 (1).png' %}">{{data.rating}}</h3>
+        
+
+
+        </div>
+    </div>
+
+  </div>
+
+
+  {% endblock %}

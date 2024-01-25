@@ -1,0 +1,28 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg ll">
+    <div class="container-fluid  d-flex justify-content-start loo">
+      <div class="navbar-nav">
+        <a class="nav-link active bg-light" aria-current="page" href="#">Home</a>
+        <a class="nav-link bg-light" href="#">Features</a>
+        <a class="nav-link bg-light" href="#">Pricing</a>
+    
+      </div>
+   
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+        <a class="navbar-brand" href="#"><h1>FARFETCH</h1></a>
+        
+      </div> 
+    </div>
+  </nav>
+  <nav class="navbar bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="{% static 'images/back.png' %}"><img src="{% static 'images/forward.png' %}" ></a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+       
+      </form>
+    </div>
+  </nav>

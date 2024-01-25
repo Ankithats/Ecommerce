@@ -1,0 +1,68 @@
+.ftt{
+    background-color: rgb(72, 38, 134);
+}
+.dti{
+    width: 100%;
+    position: relative;
+}
+
+
+.dtz{
+    position: absolute;
+    /* background-color: rgb(30, 33, 33); */
+    top: 25%;
+    left: 9%;
+    width: 60%;
+}
+.dtz .img2{
+    width: 17rem;
+    border-radius: 4%;
+}
+.dte {
+    width: 60%;
+}
+.upimg .img3{
+    width: 6rem;
+    border-radius: 5px;
+}
+.upimg input{
+    width: 70%;
+    height: 3vh;
+    font-size: 10px;
+}
+.up{
+    background-color: rgb(234, 139, 23);
+   
+}
+.dl{
+    background-color: rgb(211, 114, 30);
+  
+}
+
+.upp{
+    text-align: center;
+}
+.loo
+{
+    color: black;
+}
+#overflowTest {
+
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  }
+  .pi img{
+    width:15vw;
+    height: 20vh;
+    padding-left: 2%;
+    padding-top: 2%;
+  }
+  .ll{
+    background-color: white;
+  }
+  .pi{
+    box-shadow: #676464;
+  }
